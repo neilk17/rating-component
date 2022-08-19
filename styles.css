@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --button-color: rgb(25, 39, 42);
+    --orange: hsl(25, 97%, 53%);
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 300px;
+    margin: auto;
+}
+.container img {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--button-color);
+}
+.container h1 {
+    margin: 2rem 0 1rem;
+}
+.container p {
+    color: var(--light-grey);
+    margin-bottom: 1rem;
+}
+p {
+    line-height: 1.8;
+    color: var(--light-grey);
+}
+.thankyou-container {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.container, .thankyou-container {
+    background-color: var(--dark-blue);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    margin: 1.5rem;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+button {
+    border: none;
+}
+.rating-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.round-btn{
+    border-radius: 50%;
+    background-color: var(--button-color);
+    color: var(--light-grey);
+    padding: 0.75rem 1rem;
+}
+.btn-submit {
+    border-radius: 1rem;
+    background-color: var(--orange);
+    color: var(--white);
+    display: block;
+    height: 2.5rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+.thankyou-container img {
+    display: block;
+    margin: 1rem auto;
+
+}
+.selected-message {
+    color: var(--orange);
+    background-color: var(--button-color);
+    border-radius: 1rem;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+    width: 12rem;
+    text-align: center;
+}
